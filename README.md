@@ -5,19 +5,16 @@
 This project implements an interactive system for identifying logical fallacies in online discussions using Large Language Models (LLMs), specifically leveraging the LLama 70b model via Groq Cloud API.
 
 ## Project Structure
-- `src/`
-  - `fallacy_detector.py`: Core fallacy detection logic
-  - `llm_interaction.py`: LLM interaction and prompting
-  - `data_processing.py`: Data collection and processing
-  - `prompts.py`: Prompt templates for different fallacy detection scenarios
-- `tests/`: Unit tests for the project
+- `fallacy_detector.py`: Core fallacy detection logic
+- `llm_interaction.py`: LLM interaction and prompting
+- `data_processing.py`: Data collection and processing
+- `prompts.py`: Prompt templates for different fallacy detection scenarios
 - `requirements.txt`: Project dependencies
 - `main.py`: Main application entry point
 
 ## Setup and Installation
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Set up Groq Cloud API key in `.env` file
 
 ## Features
 - Interactive fallacy identification
